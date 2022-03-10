@@ -15,6 +15,10 @@ npm install -D tailwindcss
 ```
 npx tailwindcss init
 ```
+- in case you want to extend the tailwindcss value of some methods or properties you need to work on the full "tailwind.config.js" which can be obtained from this command:
+```
+npx tailwindcss init --full
+```
 - Update the "tailwind.config.js" as follows:
 ```
 module.exports = {
@@ -46,3 +50,6 @@ The "prod" version will froze your style and compile the output.
 npm run dev
 ```
 - et voilà we got our tailwind compiled css!!
+
+## Icons used for this tutorial 🗜️
+[heroicons](https://heroicons.dev/)
